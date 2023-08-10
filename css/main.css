@@ -30,6 +30,10 @@
   padding-top: 24px;
   border-top: 1px dashed var(--MC-LGGray);
 }
+.popup a{
+  color:#363636;
+  background-color: transparent;
+}
 
 input[type="checkbox"] {
   accent-color: var(--BC-LGRed);
