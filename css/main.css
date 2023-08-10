@@ -16,6 +16,7 @@
 }
 .popup em{
   color: var(--BC-LGRed);
+  font-weight: 400;
 }
 .popup .bold{
   font-weight: bold;
@@ -26,9 +27,21 @@
 .popup div{
   padding: 10px 0;
 }
+.popup a{
+  color: #000;
+  font-weight: 600;
+}
 .popup div+div{
   padding-top: 24px;
   border-top: 1px dashed var(--MC-LGGray);
+}
+.pp-date i{
+  font-size: calc(var(--font-size)*1.0625);
+  margin-right: 2px;
+}
+.pp-team a{
+  color: var(--BC-LGRed);
+  font-weight: 400;
 }
 
 input[type="checkbox"] {
