@@ -40,7 +40,6 @@
   margin-right: 2px;
 }
 .pp-team a{
-  color: var(--BC-LGRed);
   font-weight: 400;
 }
 input[type="checkbox"] {
@@ -59,6 +58,11 @@ input[type="checkbox"] {
 #close:hover {
   color: var(--BC-LGRed);
   cursor: pointer;
+}
+
+.pp-team .text{
+  color: var(--BC-LGRed);
+  font-weight: 600;
 }
 
 /* 이은서 header */
